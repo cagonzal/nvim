@@ -34,3 +34,5 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.opt.mouse = ""
+
+vim.g.nightflyCursorColor = true
