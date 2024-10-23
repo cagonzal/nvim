@@ -21,8 +21,8 @@ vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>") -- close window
 
 vim.keymap.set("n", "<leader>j", ":resize +2<cr>")
 vim.keymap.set("n", "<leader>k", ":resize -2<cr>")
-vim.keymap.set("n", "<leader>l", ":vertical resize +2<cr>")
-vim.keymap.set("n", "<leader>h", ":vertical resize -2<cr>")
+vim.keymap.set("n", "<leader>h", ":vertical resize +2<cr>")
+vim.keymap.set("n", "<leader>l", ":vertical resize -2<cr>")
 
 vim.keymap.set("n", "<leader>bn", "<cmd>bnext<CR>")
 vim.keymap.set("n", "<leader>bp", "<cmd>bprev<CR>")
@@ -38,7 +38,7 @@ vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
-vim.keymap.set("n", "<leader>sr", ":%s/<<C-r><C-w>>//g<Left><Left>")
+vim.keymap.set("n", "<leader>sr", ":%s/<C-r><C-w>//gc<Left><Left><Left>")
 
 vim.opt.mouse = ""
 
