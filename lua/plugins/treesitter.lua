@@ -6,7 +6,7 @@ return {
         config.setup({
             ensure_installed = {"lua", "javascript", "python", "cpp", "cuda"},
             highlight = { enable = true },
-            indent = { enable = false },
+            indent = { enable = true },
             autotag = { enable = true },
             incremental_selection = {
                 enable = true,
