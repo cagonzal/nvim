@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "jedi_language_server", "ltex"}
+                ensure_installed = { "lua_ls", "jedi_language_server", "ltex", "texlab"}
             })
         end
     },
@@ -31,6 +31,10 @@ return {
                 capabilities = capabilities
             })
             lspconfig.ltex.setup({
+                capabilities = capabilities
+            })
+
+            lspconfig.texlab.setup({
                 capabilities = capabilities
             })
         end

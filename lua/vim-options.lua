@@ -7,6 +7,8 @@ vim.cmd("set cursorline")
 vim.cmd("set breakindent")
 vim.cmd("set ignorecase")
 vim.cmd("set smartcase")
+-- vim.cmd("set wrap")
+-- vim.cmd("set wrapmargin=80")
 vim.keymap.set('i', 'kj', '<ESC>')
 vim.wo.relativenumber = true
 vim.g.mapleader = " "
